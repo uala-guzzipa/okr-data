@@ -181,13 +181,12 @@ export const okrsData: Okr[] = [
         { title: 'KR4: Optimización licencias Tableau', description: 'Lograr una reducción proyectada de costos de al menos un 20% para 2026, sin afectar el acceso de usuarios clave.', code: ''},
     ],
     initiatives: [
-        { text: 'Persistir diariamente los datos de INFORMATION_SCHEMA.JOBS en una tabla centralizada.' },
-        { text: 'Publicar un dashboard de Observabilidad con métricas clave (costos, duración, slots, etc.).' },
-        { text: 'Detectar y refactorizar al menos 10 consultas de alto impacto identificadas por los dashboards.' },
-        { text: 'Implementar clustering o particionado optimizado en al menos 20 tablas de alto volumen.' },
-        { text: 'Desarrollar un agente (IA) que actúe proactivamente con recomendaciones de optimización.' },
-        { text: 'Identificar al menos 30 tablas no utilizadas en los últimos 180 días y proceder a su archivado.' },
-        { text: 'Reestructuración de proyectos de BQ en base a Trinity y la unificación de PSP con Wilo.' },
+        { text: 'Reparticionado y clustering en las 120 tablas más consultadas.' },
+        { text: 'Agente para recomendaciones de optimización.' },
+        { text: 'DataCup y nuevo catálogo de datos con metadatos impulsados por IA.' },
+        { text: 'Persistencia diaria de métricas y dashboard de observabilidad.' },
+        { text: 'Optimización de queries y limpieza de tablas no utilizadas.' },
+        { text: 'Reducción y asignación dinámica de licencias Tableau.' },
     ]
   },
   {
